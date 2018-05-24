@@ -3,8 +3,8 @@ apply plugin: 'jacoco'
 apply plugin: 'application'
 apply plugin: 'com.github.johnrengelman.shadow'
 
-mainClassName = 'ca.craigthomas.visualclassifier.commandline.Runner'
-group = 'ca.craigthomas.visualclassifier'
+mainClassName = 'ca.craigthomas.neuralnetwork.commandline.Runner'
+group = 'ca.craigthomas.neuralnetwork'
 version = '1.0'
 
 description = 'A simple machine learning image classifier'
