@@ -7,11 +7,11 @@ package ca.craigthomas.neuralnetwork.training;
 import java.util.ArrayList;
 import java.util.List;
 
+import ca.craigthomas.neuralnetwork.activationfunctions.IActivationFunction;
+import ca.craigthomas.neuralnetwork.components.NeuralNetwork;
 import org.jblas.DoubleMatrix;
 
 import ca.craigthomas.neuralnetwork.components.DataSet;
-import ca.craigthomas.neuralnetwork.activationfunctions.IActivationFunction;
-import ca.craigthomas.neuralnetwork.components.NeuralNetwork;
 
 /**
  * The trainer class is responsible for training a neural network. Will

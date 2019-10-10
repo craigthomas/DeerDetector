@@ -5,8 +5,8 @@
 package ca.craigthomas.neuralnetwork.common;
 
 import ca.craigthomas.neuralnetwork.commandline.Runner;
-import ca.craigthomas.neuralnetwork.components.DataSet;
 import ca.craigthomas.neuralnetwork.components.Image;
+import ca.craigthomas.neuralnetwork.components.DataSet;
 
 import java.io.File;
 import java.io.IOException;

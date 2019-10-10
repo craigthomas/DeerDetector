@@ -3,7 +3,6 @@
 [![Build Status](https://travis-ci.org/craigthomas/NeuralNetwork.svg?branch=master)](https://travis-ci.org/craigthomas/NeuralNetwork) 
 [![Coverage Status](https://codecov.io/gh/craigthomas/NeuralNetwork/branch/master/graph/badge.svg)](https://codecov.io/gh/craigthomas/NeuralNetwork)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8a03ba66560d42a6b64118240b1615f9)](https://www.codacy.com/app/craig-thomas/NeuralNetwork?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=craigthomas/NeuralNetwork&amp;utm_campaign=Badge_Grade)
-[![Dependency Status](https://dependencyci.com/github/craigthomas/NeuralNetwork/badge)](https://dependencyci.com/github/craigthomas/NeuralNetwork)
 
 
 ## What is it?

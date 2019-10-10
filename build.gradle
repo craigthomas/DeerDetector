@@ -4,7 +4,7 @@ apply plugin: 'application'
 apply plugin: 'com.github.johnrengelman.shadow'
 
 mainClassName = 'ca.craigthomas.neuralnetwork.commandline.Runner'
-group = 'ca.craigthomas.neuralnetwork'
+group = 'ca.craigthomas'
 version = '1.0'
 
 description = 'A simple machine learning image classifier'
@@ -18,7 +18,7 @@ repositories {
 dependencies {
     compile 'com.beust:jcommander:1.72'
     compile 'org.slf4j:slf4j-api:1.7.5'
-    compile 'org.boofcv:openkinect:0.17'
+    compile 'org.boofcv:all:0.19'
     compile 'org.jblas:jblas:1.2.3'
     compile 'org.apache.commons:commons-csv:1.0'
     compile 'commons-io:commons-io:2.4'
@@ -35,23 +35,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.github.jengelman.gradle.plugins:shadow:2.0.2'
-    }
-}
-
-sourceSets {
-    main {
-        java {
-            srcDir 'src'
-        }
-    }
-    test {
-        java {
-            srcDir 'test'
-        }
-        resources {
-            srcDir 'resources'
-        }
+        classpath 'com.github.jengelman.gradle.plugins:shadow:5.1.0'
     }
 }
 
@@ -60,10 +44,6 @@ jacocoTestReport {
         xml.enabled = true
         html.enabled = true
     }
-}
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '4.5.1'
 }
 
 task stage {

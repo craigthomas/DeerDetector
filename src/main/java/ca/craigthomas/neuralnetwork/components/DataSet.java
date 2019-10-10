@@ -10,12 +10,11 @@ import java.util.List;
 import java.util.Random;
 import java.util.logging.Logger;
 
+import ca.craigthomas.neuralnetwork.commandline.Runner;
 import ca.craigthomas.neuralnetwork.common.CsvIO;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.tuple.Pair;
 import org.jblas.DoubleMatrix;
-
-import ca.craigthomas.neuralnetwork.commandline.Runner;
 
 /**
  * The DataSet class is used to read data from various sources. The DataSet

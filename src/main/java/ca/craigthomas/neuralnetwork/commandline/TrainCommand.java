@@ -5,20 +5,19 @@
 package ca.craigthomas.neuralnetwork.commandline;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import ca.craigthomas.neuralnetwork.components.Image;
+import ca.craigthomas.neuralnetwork.components.NeuralNetwork;
 import org.apache.commons.lang3.tuple.Pair;
 import org.apache.commons.math3.stat.StatUtils;
 import org.jblas.DoubleMatrix;
 
 import ca.craigthomas.neuralnetwork.components.DataSet;
 import ca.craigthomas.neuralnetwork.components.Prediction;
-import ca.craigthomas.neuralnetwork.components.Image;
-import ca.craigthomas.neuralnetwork.components.NeuralNetwork;
 import ca.craigthomas.neuralnetwork.training.Trainer;
 
 import static ca.craigthomas.neuralnetwork.common.ImageIO.saveImage;

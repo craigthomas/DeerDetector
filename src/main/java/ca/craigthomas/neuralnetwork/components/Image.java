@@ -9,8 +9,8 @@ import java.awt.image.BufferedImage;
 
 import org.jblas.DoubleMatrix;
 
-import boofcv.core.image.ConvertBufferedImage;
 import boofcv.core.image.ConvertImage;
+import boofcv.io.image.ConvertBufferedImage;
 import boofcv.io.image.UtilImageIO;
 import boofcv.struct.image.ImageUInt8;
 import boofcv.struct.image.MultiSpectral;
