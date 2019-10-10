@@ -1,9 +1,10 @@
 # Neural Network 
 
-[![Build Status](https://travis-ci.org/craigthomas/NeuralNetwork.svg?branch=master)](https://travis-ci.org/craigthomas/NeuralNetwork) 
-[![Coverage Status](https://codecov.io/gh/craigthomas/NeuralNetwork/branch/master/graph/badge.svg)](https://codecov.io/gh/craigthomas/NeuralNetwork)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8a03ba66560d42a6b64118240b1615f9)](https://www.codacy.com/app/craig-thomas/NeuralNetwork?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=craigthomas/NeuralNetwork&amp;utm_campaign=Badge_Grade)
-
+[![Build Status](https://img.shields.io/travis/craigthomas/NeuralNetwork?style=flat-square)](https://travis-ci.org/craigthomas/NeuralNetwork) 
+[![Coverage Status](https://img.shields.io/codecov/c/gh/craigthomas/NeuralNetwork?style=flat-square)](https://codecov.io/gh/craigthomas/NeuralNetwork)
+[![Codacy Badge](https://img.shields.io/codacy/grade/8a03ba66560d42a6b64118240b1615f9?style=flat-square)](https://www.codacy.com/app/craig-thomas/NeuralNetwork?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=craigthomas/NeuralNetwork&amp;utm_campaign=Badge_Grade)
+[![Dependencies](https://img.shields.io/librariesio/github/craigthomas/NeuralNetwork?style=flat-square)](https://libraries.io/github/craigthomas/NeuralNetwork)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 ## What is it?
 
